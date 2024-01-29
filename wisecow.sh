@@ -24,14 +24,14 @@ HTTP/1.1 200
 EOF
 }
 
-prerequisites() {
-	command -v cowsay >/dev/null 2>&1 &&
-	command -v fortune >/dev/null 2>&1 || 
-		{ 
-			echo "Install prerequisites."
-			exit 1
-		}
-}
+#prerequisites() {
+#	command -v cowsay >/dev/null 2>&1 &&
+#	command -v fortune >/dev/null 2>&1 || 
+#		{ 
+#			echo "Install prerequisites."
+#			exit 1
+#		}
+#}
 
 main() {
 	prerequisites
