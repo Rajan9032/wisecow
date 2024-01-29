@@ -24,7 +24,7 @@ HTTP/1.1 200
 EOF
 }
 
-#prerequisites() {
+prerequisites() {
 	command -v cowsay >/dev/null 2>&1 &&
 	command -v fortune >/dev/null 2>&1 || 
 		{ 
